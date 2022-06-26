@@ -1,0 +1,31 @@
+GET http://localhost:3000/route
+
+###
+GET http://localhost:3000/route/62b85878b02c9ea2b20e44d7
+
+###
+
+
+POST http://localhost:3000/route
+Content-Type: application/json
+
+{
+    "name": "The Lord of the Rings: The Fellowship of the Ring",
+    "img": "https://bit.ly/2tC1Lcg",
+    "summary": "A young hobbit, Frodo, who has found the One Ring ...."
+}
+
+###
+
+DELETE http://localhost:3000/route/62b85be3b02c9ea2b20e44ea
+
+###
+
+PATCH http://localhost:3000/route/62b85878b02c9ea2b20e44d7
+Content-Type: application/json
+
+{
+    "name":"Aveneger Part One"
+}
+
+
